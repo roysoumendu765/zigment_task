@@ -27,7 +27,7 @@ interface FormGeneratorProps {
 }
 
 const RightSide: React.FC<FormGeneratorProps> = ({ schema }) => {
-  const { control, handleSubmit, reset } = useForm();
+  const { control, handleSubmit } = useForm();
   const [downloadData, setDownloadData] = useState<any>({});
 
   const onSubmit = (data: any) => {
@@ -49,7 +49,7 @@ const RightSide: React.FC<FormGeneratorProps> = ({ schema }) => {
   };
 
   const handleOnDownload = () => {
-    if(downloadData.lenght !== 0){
+    if(downloadData.length !== 0){
       const blob = new Blob([JSON.stringify(downloadData, null, 2)], {
         type: "application/json",
       });
@@ -67,15 +67,8 @@ const RightSide: React.FC<FormGeneratorProps> = ({ schema }) => {
   }
 
   const handleReset = () => {
-    reset();
-    setDownloadData({}); 
-    Swal.fire({
-      icon: "info",
-      title: "Form Reset",
-      text: "Form has been reset successfully."
-    });
+    window.location.reload();
   };
-
 
   return (
     <>
