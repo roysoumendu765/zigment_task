@@ -113,4 +113,5 @@ Right side: Generated form preview
 
 # Implemented all the features mentioned in the task file.
 
-# Deployed in Vercel: `https://zigment-task-fvjs.vercel.app/`
+# Deployed in Vercel: 
+- https://zigment-task-fvjs.vercel.app/
