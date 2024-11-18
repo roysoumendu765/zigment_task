@@ -1,0 +1,17 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+input[type="text"]{
+    color: black;
+}
+input[type="email"]{
+    color: black;
+}
+textarea, select{
+    color: black;
+}
