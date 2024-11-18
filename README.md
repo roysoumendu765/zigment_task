@@ -40,6 +40,7 @@ Right side: Generated form preview
 
 # Worked according to the sample JSON in the test file.
 # Example:
+```json
 {
 "formTitle": "Project Requirements Survey",
 "formDescription": "Please fill out this survey about your project needs",
@@ -108,7 +109,8 @@ Right side: Generated form preview
 }
 ]
 }
+```
 
 # Implemented all the features mentioned in the task file.
 
-# Deployed in Vercel: https://zigment-task-fvjs.vercel.app/
+# Deployed in Vercel: `https://zigment-task-fvjs.vercel.app/`
