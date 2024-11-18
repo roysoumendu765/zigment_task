@@ -24,6 +24,8 @@ Right side: Generated form preview
 - Responsive form layout
 - Proper error states and validation
 
+# Other Requirements:
+
 - Used TypeScript for type safety
 - Created proper interfaces for the JSON schema
 - Handled JSON validation gracefully
