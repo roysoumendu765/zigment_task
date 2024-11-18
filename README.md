@@ -18,6 +18,7 @@ Left side: JSON editor
 - Syntax highlighting for JSON
 - Real-time JSON validation
 - Error messages for invalid JSON
+
 Right side: Generated form preview
 - Updates in real-time as JSON is edited
 - Responsive form layout
